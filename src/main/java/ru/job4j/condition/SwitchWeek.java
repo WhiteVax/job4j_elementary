@@ -2,7 +2,7 @@ package ru.job4j.condition;
 
 public class SwitchWeek {
     public static String nameOfDay(int day) {
-        String name = "found unexpected value";
+        String name;
         switch (day) {
             case 1:
                 name = "Monday";
@@ -24,6 +24,9 @@ public class SwitchWeek {
                 break;
             case 7:
                 name = "Sunday";
+                break;
+            default:
+                name = "Error";
                 break;
         }
         return name;
