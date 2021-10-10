@@ -8,5 +8,10 @@ public class ArrayDefinition {
         System.out.println("Массив ages равен: " + ages.length);
         System.out.println("Массив surnames равен: " + surnames.length);
         System.out.println("Массив prices равен: " + prices.length);
+        String[] names = new String[4];
+        names[0] = "Vladyslav";
+        names[1] = "Dmitry";
+        names[2] = "Sergey";
+        names[3] = "Artemy";
     }
 }
