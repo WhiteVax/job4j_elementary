@@ -12,5 +12,10 @@ public class Sequence {
         array[2][0] = 7;
         array[2][1] = 8;
         array[2][2] = 9;
+
+        int[][] multidimensionalArray = {{0}, {9, 2}, {3, 4, 5}, {1, 5, 3, 1}};
+        for (int i = 0; i < multidimensionalArray.length; i++) {
+            System.out.println("Размер вложенного массива равен: " + multidimensionalArray[i].length);
+        }
     }
 }
